@@ -25,8 +25,6 @@
 					<span class="help-block">{!! form_error('confpassword') !!}</span>
 				</div>
 
-
-
 				<button type="submit" class="btn btn-primary">Submit</button>
 			</form>
 		<a href="user_guide/">User Guide</a>
