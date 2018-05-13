@@ -10,7 +10,8 @@ class Welcome extends My_Controller {
 			'email', 'Email',
 			'trim|required|valid_email',
 			[
-				//'required' => "%s is required.",
+				"required" => "{field} is required Anisur.",
+				"valid_email" => "Your provide {field} not valid",
 			]
 		);
 
