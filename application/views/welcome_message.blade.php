@@ -5,7 +5,6 @@
 	<h1 style="text-align: center;"><span class="glyphicon glyphicon-user"></span>  Welcome to CodeIgniter!</span></h1>
 
 	<div class="col col-md-4 col-md-offset-4">
-
 			<form action="" method="POST" role="form">
 
 				<div class="form-group">
@@ -34,6 +33,6 @@
 			<li>{{ $subject->name }}</li>
 		@endforeach
 
-		{{ base_url() . 'public/css/' }}
+		{{ base_url() . 'css/' }}
 	</div>
 @endsection
